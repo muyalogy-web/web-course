@@ -9,6 +9,7 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 
   background-color: white;
   border-bottom-width: 1px;
@@ -49,6 +50,7 @@
   border-style: solid;
   border-color: rgb(192, 192, 192);
   border-radius: 2px;
+  border-radius: 20px 0 0 20px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 0;
 }
@@ -66,6 +68,7 @@
   border-style: solid;
   border-color: rgb(192, 192, 192);
   margin-left: -1px;
+  border-radius: 0 20px 20px 0;
   margin-right: 10px;
 }
 
@@ -106,6 +109,25 @@
 
 .notifications-icon {
   height: 24px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
 
 .current-user-picture {
