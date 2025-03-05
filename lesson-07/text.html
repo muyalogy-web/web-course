@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Practice</title>
+
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .video-stats {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+      }
+
+      .video-title {
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .video-author {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 20px;
+      }
+
+      .video-description {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 300px;
+        line-height: 22px;
+        margin-bottom: 100px;
+      }
+
+      .apple-text {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+
+      .span-example {
+        color: red;
+      }
+
+      .span-example:hover {
+        text-decoration: underline;
+      }
+
+      .shop-link {
+        cursor: pointer;
+        margin-left: 13px;
+      }
+
+      .shop-link:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        display: flex;
+      }
+
+      .text-animation {
+        font-size: 18px;
+        font-weight: bold;
+        border-right: 2px solid black;
+        color: rgb(66, 66, 187);
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 4s steps(20) infinite alternate;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 15%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="video-title">
+      Iphone 15 Which Apple Case is Best? (FineWoven vs Silicone vs Clear)
+    </p>
+
+    <p class="video-stats">3.4M views &#183; 8 months ago</p>
+
+    <p class="video-author">Unbox Therapy &#10003;</p>
+
+    <p class="video-description">
+      Offer a luxurious feel with intricate patterns, providing a stylish yet
+      protective layer for your iphone 15
+    </p>
+
+    <p class="apple-text">
+      Shop early for the best selection of holiday favourites.
+      <span class="shop-link">Shop now &#62;</span>
+    </p>
+
+    <p>
+      Shop <u>early</u> for the best <strong>selection</strong> of
+      <u>holiday</u> favourites. <span class="span-example">Shop now</span>
+    </p>
+
+    <p class="container">
+      <span class="text-animation">this is the type effect</span>
+    </p>
+  </body>
+</html>
